@@ -14,8 +14,8 @@ char* GREEN_BOLD_BRIGHT = "\033[1;92m";
 char* YELLOW_BOLD_BRIGHT = "\033[1;93m";
 char* WHITE_BOLD_BRIGHT = "\033[1;97m";
 
-char* answer1 = "Sum of all of the calibration values (1): 55712";
-char* answer2 = "Sum of all of the calibration values (2): 55413";
+char* answer1 = "Sum of valid game IDs (1): 2632";
+char* answer2 = "Sum of set powers (2): 69629";
 
 
 void print_pass_message() {

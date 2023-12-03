@@ -15,8 +15,8 @@ char* GREEN_BOLD_BRIGHT = "\033[1;92m";
 char* YELLOW_BOLD_BRIGHT = "\033[1;93m";
 char* WHITE_BOLD_BRIGHT = "\033[1;97m";
 
-char* answer1 = "Sum of all of the calibration values (1): 55712";
-char* answer2 = "Sum of all of the calibration values (2): 55413";
+char* answer1 = "Sum of all part numbers (1): 512794";
+char* answer2 = "Sum of all gear ratios (2): 67779080";
 
 
 void print_pass_message() {
@@ -32,7 +32,6 @@ void print_fail_message() {
 void print_time(double t) {
   printf("%s Time %s %.3f s%s\n", WHITE_BOLD_BRIGHT, (t < 3 ? GREEN_BOLD_BRIGHT : t < 20 ? YELLOW_BOLD_BRIGHT : RED_BOLD_BRIGHT), t, RESET);
 }
-
 
 double current_time() {
   struct timeval current_time;

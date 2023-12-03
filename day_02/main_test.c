@@ -1,7 +1,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
-#include <time.h>
+
+#include <sys/time.h>
 
 
 char* RESET = "\033[0m";
@@ -33,9 +34,16 @@ void print_time(double t) {
 }
 
 
+double current_time() {
+  struct timeval current_time;
+  gettimeofday(&current_time, NULL);
+  return (current_time.tv_sec * 1000000 + current_time.tv_usec) / 1000000.0;
+}
+
+
 int main(int argc, char** argv) {
   if (argc == 2 && strncmp(argv[1], "time", 4) == 0) {
-    printf("%ld\n", time(0));
+    printf("%.3lf\n", current_time());
     return 0;
   }
 
@@ -50,8 +58,9 @@ int main(int argc, char** argv) {
 
   fclose(fp);
 
-  long init = atol(outputs[0]);
-  double t = (time(0) - init) / 1.0;
+  double init;
+  sscanf(outputs[0], "%lf", &init);
+  double t = current_time() - init;
   int pass = 0;
 
   if (strncmp(outputs[1], answer1, strlen(answer1)) == 0) {

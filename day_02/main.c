@@ -146,6 +146,8 @@ int main() {
     }
 
     sum_powers += min_red * min_green * min_blue;
+    free(games[i]->sets);
+    free(games[i]);
   }
 
   printf("Sum of set powers (2): %d\n", sum_powers);

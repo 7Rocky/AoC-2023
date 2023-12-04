@@ -19,3 +19,5 @@ make test
 | ---------------- | ----------------------- | ------------------------------ |:----------------:|
 | [Day 01](day_01) | Trebuchet?!             | :star:                         | :shrug:          |
 | [Day 02](day_02) | Cube Conundrum          | :star::star:                   | :thinking:       |
+| [Day 03](day_03) | Gear Ratios             | :star::star:                   | :shrug:          |
+| [Day 04](day_04) | Scratchcards            | :star::star:                   | :thinking:       |

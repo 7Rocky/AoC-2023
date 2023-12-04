@@ -15,12 +15,14 @@ int count(char c, char* str, int length) {
   return n;
 }
 
+
 void find_lengths(char* line, int* length_numbers, int* length_winning_numbers) {
   int index_colon = strcspn(line, ":");
   int index_bar = strcspn(line, "|");
   *length_winning_numbers = (index_bar - index_colon) / 3;
   *length_numbers = (strlen(line) - index_bar) / 3;
 }
+
 
 void parse_numbers(char* line, char* delimiter, int length, int numbers[]) {
   int index_delimiter = strcspn(line, delimiter);
@@ -39,6 +41,7 @@ void parse_numbers(char* line, char* delimiter, int length, int numbers[]) {
   }
 }
 
+
 int find_matches(int a[], int length_a, int b[], int length_b) {
   int n = 0;
 
@@ -50,6 +53,7 @@ int find_matches(int a[], int length_a, int b[], int length_b) {
 
   return n;
 }
+
 
 int main() {
   FILE* fp = fopen("input.txt", "r");

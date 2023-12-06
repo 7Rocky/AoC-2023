@@ -15,9 +15,10 @@ cd AoC-2023
 make test
 ```
 
-| Problem          | Title                   | Difficulty                     | Feelings         |
-| ---------------- | ----------------------- | ------------------------------ |:----------------:|
-| [Day 01](day_01) | Trebuchet?!             | :star:                         | :shrug:          |
-| [Day 02](day_02) | Cube Conundrum          | :star::star:                   | :thinking:       |
-| [Day 03](day_03) | Gear Ratios             | :star::star:                   | :shrug:          |
-| [Day 04](day_04) | Scratchcards            | :star::star:                   | :thinking:       |
+| Problem          | Title                           | Difficulty                     | Feelings         |
+| ---------------- | ------------------------------- | ------------------------------ |:----------------:|
+| [Day 01](day_01) | Trebuchet?!                     | :star:                         | :shrug:          |
+| [Day 02](day_02) | Cube Conundrum                  | :star::star:                   | :thinking:       |
+| [Day 03](day_03) | Gear Ratios                     | :star::star:                   | :shrug:          |
+| [Day 04](day_04) | Scratchcards                    | :star::star:                   | :thinking:       |
+| [Day 05](day_05) | If You Give A Seed A Fertilizer | :star::star:                   | :raised_eyebrow: |

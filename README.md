@@ -22,4 +22,4 @@ make test
 | [Day 03](day_03) | Gear Ratios                     | :star::star:                   | :shrug:          |
 | [Day 04](day_04) | Scratchcards                    | :star::star:                   | :thinking:       |
 | [Day 05](day_05) | If You Give A Seed A Fertilizer | :star::star:                   | :raised_eyebrow: |
-| [Day 05](day_05) | Wait For It                     | :star:                         | :shrug:          |
+| [Day 06](day_06) | Wait For It                     | :star:                         | :shrug:          |

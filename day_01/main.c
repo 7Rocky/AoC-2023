@@ -70,7 +70,7 @@ int main() {
   int results[2] = {0, 0};
   FILE* fp = fopen("input.txt", "r");
 
-  while (fgets(line, sizeof(line), fp) != NULL) {
+  while (fgets(line, sizeof(line), fp)) {
     for (int r = 1; r <= 2; r++) {
       results[r - 1] += 10 * get_first_number(line, r) + get_last_number(line, r);
     }

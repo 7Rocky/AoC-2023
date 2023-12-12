@@ -24,3 +24,4 @@ make test
 | [Day 05](day_05) | If You Give A Seed A Fertilizer | :star::star:                   | :raised_eyebrow: |
 | [Day 06](day_06) | Wait For It                     | :star:                         | :shrug:          |
 | [Day 07](day_07) | Camel Cards                     | :star::star:                   | :star_struck:    |
+| [Day 08](day_08) | Haunted Wasteland               | :star::star:                   | :blue_heart:     |

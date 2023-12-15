@@ -25,3 +25,10 @@ make test
 | [Day 06](day_06) | Wait For It                     | :star:                         | :shrug:          |
 | [Day 07](day_07) | Camel Cards                     | :star::star:                   | :star_struck:    |
 | [Day 08](day_08) | Haunted Wasteland               | :star::star:                   | :blue_heart:     |
+| [Day 09](day_09) | Mirage Maintenance              | :star::star:                   | :blue_heart:     |
+| [Day 10](day_10) | Pipe Maze                       | :star::star::star:             | :blue_heart:     |
+| [Day 11](day_11) | Cosmic Expansion                | :star::star:                   | :star_struck:    |
+| Day 12           | Hot Springs                     |                                |                  |
+| [Day 13](day_13) | Points of Incidence             | :star::star::star:             | :rage:           |
+| Day 14           | Parabolic Reflector Dish        |                                |                  |
+| Day 15           | Lens Library                    |                                |                  |

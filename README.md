@@ -28,7 +28,7 @@ make test
 | [Day 09](day_09) | Mirage Maintenance              | :star::star:                   | :blue_heart:     |
 | [Day 10](day_10) | Pipe Maze                       | :star::star::star:             | :blue_heart:     |
 | [Day 11](day_11) | Cosmic Expansion                | :star::star:                   | :star_struck:    |
-| Day 12           | Hot Springs                     |                                |                  |
+| [Day 12](day_12) | Hot Springs                     | :star::star::star::star:       | :rage:           |
 | [Day 13](day_13) | Points of Incidence             | :star::star::star:             | :rage:           |
-| Day 14           | Parabolic Reflector Dish        |                                |                  |
-| Day 15           | Lens Library                    |                                |                  |
+| [Day 14](day_14) | Parabolic Reflector Dish        | :star::star::star:             | :star_struck:    |
+| [Day 15](day_15) | Lens Library                    | :star::star:                   | :blue_heart:     |

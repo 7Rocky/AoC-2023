@@ -32,3 +32,4 @@ make test
 | [Day 13](day_13) | Points of Incidence             | :star::star::star:             | :rage:           |
 | [Day 14](day_14) | Parabolic Reflector Dish        | :star::star::star:             | :star_struck:    |
 | [Day 15](day_15) | Lens Library                    | :star::star:                   | :blue_heart:     |
+| [Day 16](day_16) | The Floor Will Be Lava          | :star::star::star:             | :raised_eyebrow: |

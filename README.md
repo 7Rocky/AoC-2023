@@ -33,3 +33,12 @@ make test
 | [Day 14](day_14) | Parabolic Reflector Dish        | :star::star::star:             | :star_struck:    |
 | [Day 15](day_15) | Lens Library                    | :star::star:                   | :blue_heart:     |
 | [Day 16](day_16) | The Floor Will Be Lava          | :star::star::star:             | :raised_eyebrow: |
+| Day 17           | Clumsy Crucible                 |                                |                  |
+| [Day 18](day_18) | Lavaduct Lagoon                 | :star::star::star:             | :star_struck:    |
+| [Day 19](day_19) | Aplenty                         | :star::star::star::star:       | :star_struck:    |
+| Day 20           | Pulse Propagation               |                                |                  |
+| Day 21           | Step Counter                    |                                |                  |
+| Day 22           | Sand Slabs                      |                                |                  |
+| Day 23           | A Long Walk                     |                                |                  |
+| Day 24           | Never Tell Me The Odds          |                                |                  |
+| Day 25           | Snowverload                     |                                |                  |

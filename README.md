@@ -6,7 +6,7 @@ Resolution of the problems in C language:
 git clone https://github.com/7Rocky/AoC-2023
 cd AoC-2023/day_<number>
 
-gcc main.c; ./a.out; rm a.out
+gcc -O3 main.c; ./a.out; rm a.out
 ```
 
 ```bash

@@ -9,12 +9,12 @@ typedef struct {
   int red;
   int green;
   int blue;
-} set;
+} set_t;
 
 typedef struct {
   int num_sets;
-  set* sets;
-} game;
+  set_t* sets;
+} game_t;
 
 
 int count(char* str, char c) {
@@ -66,23 +66,21 @@ int find_number_for(char* id, char* str, int length) {
 }
 
 
-set parse_set(char* str, int length) {
-  set s = {
+set_t parse_set(char* str, int length) {
+  return (set_t) {
     .red = find_number_for("red", str, length),
     .green = find_number_for("green", str, length),
     .blue = find_number_for("blue", str, length)
   };
-
-  return s;
 }
 
 
-game* parse_game(char* line) {
+game_t* parse_game(char* line) {
   int num_sets = count(line, ';') + 1;
-  set* sets = malloc(sizeof(set) * num_sets);
+  set_t* sets = malloc(sizeof(set_t) * num_sets);
   int start = index_of(line, ':') + 2;
   int length = index_of(line, ';') - start;
-  game* g = malloc(sizeof(game*));
+  game_t* g = malloc(sizeof(game_t));
 
   for (int i = 0; i < num_sets; i++) {
     sets[i] = parse_set(line + start, length);
@@ -99,7 +97,7 @@ game* parse_game(char* line) {
 
 int main() {
   char line[256];
-  game* games[N_GAMES];
+  game_t* games[N_GAMES];
   FILE* fp = fopen("input.txt", "r");
   int i = 0;
 
@@ -111,7 +109,7 @@ int main() {
 
   int result = 0;
   int is_game_valid = 0;
-  set target = { .red = 12, .green = 13, .blue = 14 };
+  set_t target = { .red = 12, .green = 13, .blue = 14 };
 
   for (int i = 0; i < N_GAMES; i++) {
     is_game_valid = 0;
